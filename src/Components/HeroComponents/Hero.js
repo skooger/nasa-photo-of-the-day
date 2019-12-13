@@ -35,9 +35,10 @@ const axios = require('axios').default;
     const StyledDate = styled.p`
       color: white;
       font-size: 4 rem;
-      background-color: black;
+      background-color: rgb(105,105,105, .8);
       padding: 1%;
-      margin-bottom: 20%;
+      margin-bottom: 30%;
+      margin-top: -10px;
       top: 0;
 
     
@@ -50,6 +51,7 @@ const axios = require('axios').default;
 
     const StyledH2 = styled.h2`
       color: white;
+      padding: 3%;
     
     `;
 
@@ -60,7 +62,7 @@ const axios = require('axios').default;
     `;
 
     const StyledInfo = styled.div`
-      background-color: black;
+      background-color: rgb(105,105,105, .8);
 
 
     `;
